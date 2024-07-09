@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любимый Питомец</title>
+</head>
+<body>
+    <header class="header">
+    <h1 class="logo">Всё о котиках</h1>
+    <nav class="header-nav_menu">
+        <ul class="header-list_menu">
+            <a href="">Статьи</a>
+            <a href="">Видео</a>
+            <a href="">О нас</a>
+            <a href="">Контакты</a>
+        </ul>
+    </nav>
+    </header>
+    <section class="main">
+        <div class="main_text">
+        <h1>Милые и <br> Весёлые!</h1>
+        <p>Узнайте об этих удивительных созданиях на нашем <br> сайте!</p>
+        <a href="" class="but1">Узнать больше →</a>
+        </div>
+        <img class="banner" src="image/banner.jpg" alt="">
+    </section>
+    <section class="uhod">
+        <h1>Все необходимые знания <br> о котиках</h1>
+        <div class="cards"> 
+            <div class="card">
+                <img src="image/icon1.png" alt="" class="icon1">
+                <div>
+                    <h2>Особенности</h2>
+                    <p>Узнайте всё о повадках и психологии котиков и их дружбе с человеком.</p>
+                </div>
+                <a href="">Смотреть →</a>
+            </div>
+            <div class="card">
+                <img src="image/icon2.png" alt="">
+                <div>
+                    <h2>Разновидности</h2>
+                    <p>В рядах кошачьих популяций насчитывается множество разновидностей, сравните все!</p>
+                </div>
+                <a href="">Смотреть →</a>
+            </div>
+            <div class="card">
+                <img src="image/icon3.png" alt="">
+                <div>
+                <h2>Как ухаживать?</h2>
+                <p>Узнайте основные критерии уюта, которые стоит учитывать при заведении котика.</p>
+            </div>
+                <a href="">Смотреть →</a>
+            </div>
+        </div>
+        <a href="">Смотреть всё →</a>
+    </section>
+    <section class="statya">
+        <section class="kot1">
+        <img src="image/kot1.jpg" alt="">
+        </section>
+        <div class="statya_text">
+            <h3>УХОД ЗА КОТЯТАМИ</h3>
+            <h2>Детёныши котиков</h2>
+            <p>Новорожденные котята рождаются весом 80–120 г и длиной тела — 9–12 см. В первые дни жизни малыши практически беспомощны, ведь они не видят и не слышат.</p>
+            <a href="">Читать далее →</a>
+        </div>
+    </section>
+    <section class="statya">
+        <img src="image/kot2.jpg" alt="">
+        <div class="statya_text">
+            <h3>МЯСО ИЛИ РЫБА</h3>
+            <h2>Чем кормить котика?</h2>
+            <p>Кошки — хищники, питаются мясом и рыбой. Домашние кошки иногда пьют молоко, а ещё реже (если сильно голодны) могут есть и хлеб. Некоторые кошки охотно едят овощи и листья растений.</p>
+            <a href="">Читать далее →</a>
+        </div>
+    </section>
+    <section class="statya">
+        <section class="kot3">
+        <img src="image/kot3.jpg" alt="">
+        </section>
+        <div class="statya_text">
+            <h3>ДОМИК ИЛИ ЛЕЖАНКА</h3>
+            <h2>Жилище для котика.</h2>
+            <p>Домики для котиков бывают разные, они могут спать на мини-гамаках, лежанках и в домиках.</p>
+            <a href="">Читать далее →</a>
+        </div>
+    </section>
+    <section class="statya">
+        <img src="image/kot4.jpg" alt="">
+        <div class="statya_text">
+            <h3>ЗАВЕСТИ СЕМЬЮ</h3>
+            <h2>Как разводить котиков?</h2>
+            <p>Если вы решили заняться разведением кошек, важно заранее продумать все аспекты, связанные с этой деятельностью. Для начала нужно любить этих животных, так как работа напрямую связана с постоянным общением с ними. А без любви к своему делу успеха добиться трудно.</p>
+            <a href="">Читать далее →</a>
+        </div>
+    </section>
+    <script>
+        let button = document.querySelector("button");
+        let head = document.querySelector("head");
+        let block = document.querySelector(".button");
+        button.addEventListener('click', function () {
+            head.innerHTML+="<link href='style.css' rel='stylesheet'>";
+            block.innerHTML="";
+        });
+    </script>
+</body>
+</html>
